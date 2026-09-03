@@ -18,15 +18,23 @@ The application is built natively for Android using a modern Kotlin and Jetpack 
 *   **Image Loading:** Coil
 *   **Networking:** Retrofit / OkHttp (REST API integrations)
 
-## Key Features
+## Features
 
-*   **Seamless Dual-API Search:** The app concurrently fetches and merges data from both the iTunes Search API (commercial tracks) and the Jamendo API (independent tracks), presenting them in a unified, fluid search experience.
-*   **Background Playback & Lockscreen Controls:** Implements a full MediaSession service, allowing playback to continue smoothly in the background, complete with system notification controls and lockscreen integration.
-*   **Persistent Playback State:** The application automatically serializes the active audio queue, current track index, and exact millisecond timestamp. When the app is killed and relaunched, it instantly restores the user's exact listening state.
-*   **Dynamic Queue Management:** Users can add tracks to the queue, remove them, or jump to specific songs seamlessly via a custom modal bottom sheet. 
-*   **Real-time Synced Lyrics:** Features a custom LRC parser that synchronizes lyrics to the exact millisecond of the playing audio track.
-*   **User Authentication & Profiles:** Secure login system via Firebase, allowing users to save personal playlists, track listening history, and customize their profile using the modern Android 13+ Photo Picker.
-*   **Polished UI/UX:** Features advanced Compose layout techniques, including custom sliders for precise audio seeking, marquee scrolling text for long titles, gradient fading edges, and fluid transitions.
+*   Stream a dual-catalog of music (Commercial tracks & Full Indie library)
+*   Full background playback with MediaSession and lock screen integration
+*   Search for songs, albums, and artists globally
+*   Fetch and display real-time synchronized LRC lyrics
+*   Cloud playlist management and library syncing via Firebase
+*   Save favorite artists and tracks to your personal library
+*   Persistent playback queue (restores exact song and millisecond timestamp on restart)
+*   Add, remove, or play directly from the 'Up Next' queue
+*   Cross-device account authentication
+*   Native Android 13+ Photo Picker for profile customization
+*   Local search history caching (re-search in one tap)
+*   Dynamic 'Recently Played' tracking and smart recommendations
+*   Beautiful, native Jetpack Compose UI (Marquee scrolling, fading edges, fluid sliders)
+*   Material 3 Modal Bottom Sheets for extensive track options
+*   Hardware media button support (Bluetooth headphones, car audio)
 
 ## Limitations
 
