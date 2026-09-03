@@ -4,6 +4,15 @@
 
 <h1 align="center">Wavve</h1>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?style=flat-square&logo=kotlin" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Jetpack_Compose-2024.09-4285F4?style=flat-square&logo=jetpackcompose" alt="Compose">
+  <img src="https://img.shields.io/badge/Min_SDK-24-3DDC84?style=flat-square&logo=android" alt="Min SDK">
+  <img src="https://img.shields.io/badge/Target_SDK-36-3DDC84?style=flat-square&logo=android" alt="Target SDK">
+  <img src="https://img.shields.io/badge/Media3-ExoPlayer-FF0000?style=flat-square" alt="Media3 ExoPlayer">
+  <img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=flat-square&logo=firebase" alt="Firebase">
+</p>
+
 ---
 
 <p align="center">
