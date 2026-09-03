@@ -1,8 +1,20 @@
-# Wavve Music
+<p align="center">
+  <img src="logo.png" width="128" height="128" alt="Wavve Icon">
+</p>
 
-Wavve is a minimalist, editorial-grade music streaming application inspired by the design languages of Apple Music and Spotify. Built entirely with modern Android development standards, the app serves as a comprehensive showcase of scalable architecture, background media processing, and polished user interface design. 
+<h1 align="center">Wavve</h1>
 
-This repository hosts the release APK for demonstration purposes.
+---
+
+<p align="center">
+  A minimalist, editorial-grade music streaming application inspired by the design languages of Apple Music and Spotify. Built entirely with modern Android development standards, the app serves as a comprehensive showcase of scalable architecture, background media processing, and polished user interface design.
+</p>
+
+---
+
+<p align="center">
+  This repository hosts the release APK for demonstration purposes.
+</p>
 
 ## Tech Stack
 
