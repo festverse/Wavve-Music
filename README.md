@@ -37,7 +37,7 @@ The application is built natively for Android using a modern Kotlin and Jetpack 
 *   Search for songs, albums, and artists globally
 *   Fetch and display real-time synchronized LRC lyrics
 *   Cloud playlist management and library syncing via Firebase
-*   **Shareable Playlists & Deep Linking:** Generate native Android deep links to seamlessly share your custom playlists with friends
+*   Generate native Android deep links to seamlessly share your custom playlists with friends
 *   Save favorite artists and tracks to your personal library
 *   Persistent playback queue (restores exact song and millisecond timestamp on restart)
 *   Add, remove, or play directly from the 'Up Next' queue
