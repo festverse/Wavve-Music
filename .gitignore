@@ -1,0 +1,72 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+/build/
+app/build/
+
+# Kotlin
+.kotlin/
+
+# Local configuration
+*.iml
+local.properties
+/local.properties
+
+# IDE
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/other.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Native
+.externalNativeBuild
+.cxx
+*.so
+
+# Captures
+/captures
+
+# Secrets & Keys - NEVER commit these
+.env
+debug.keystore
+debug.keystore.base64
+*.jks
+*.keystore
+google-services.json
+
+# Test / debug artifacts
+logcat.txt
+test_*.json
+metadata.json
+msg_filter.py
+
+# Build outputs
+.build-outputs/

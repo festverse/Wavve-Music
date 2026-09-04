@@ -21,9 +21,6 @@
 
 ---
 
-<p align="center">
-  This repository hosts the release APK for demonstration purposes.
-</p>
 
 ## Tech Stack
 
@@ -61,7 +58,7 @@ The application is built natively for Android using a modern Kotlin and Jetpack 
 ## Limitations
 
 *   **30-Second Commercial Previews:** Because Wavve is a non-commercial portfolio project, it does not have licensing agreements with major record labels. To comply with copyright laws, mainstream commercial tracks (fetched via the iTunes API) are strictly limited to 30-second audio previews. Full-length playback is only available for independent, royalty-free tracks sourced from the Jamendo catalog.
-*   **Lyrics Availability:** Synchronized lyrics are dependent on the public Lyrics.ovh database. If a specific track's LRC data is missing from the public database, the lyrics feature will fallback to a "Not Available" state.
+*   **Lyrics Availability:** Synchronized lyrics are dependent on the public [LRCLIB](https://lrclib.net) database. If a specific track's LRC data is missing from the database, the lyrics view will display a "Not Available" state.
 
 ## Credits & APIs
 
@@ -69,9 +66,34 @@ Wavve relies on the following public APIs to populate its content:
 
 *   **iTunes Search API:** For mainstream track metadata and audio previews.
 *   **Jamendo API:** For independent music and full-length royalty-free streaming.
-*   **Lyrics.ovh:** For retrieving synchronized song lyrics.
+*   **[LRCLIB](https://lrclib.net):** For retrieving synchronized song lyrics.
 *   **DiceBear API:** For generating fallback user profile avatars.
+
+## Building from Source
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/festverse/Wavve-Music.git
+    cd Wavve-Music
+    ```
+
+2.  **Set up Firebase**
+    - Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+    - Enable **Authentication** (Email/Password and Google Sign-In)
+    - Enable **Cloud Firestore**
+    - Download `google-services.json` and place it in the `app/` directory
+
+3.  **Configure environment variables**
+    - Copy `.env.example` to `.env`
+    - Fill in your API keys:
+      ```
+      GEMINI_API_KEY=your_gemini_api_key_here
+      ```
+
+4.  **Open in Android Studio** and sync Gradle. Build and run on your device or emulator.
+
+> **Note:** The `google-services.json` file and `.env` are excluded from version control via `.gitignore` to protect sensitive credentials.
 
 ## Contact
 
-Developed as a showcase of modern Android engineering. If you are reviewing this project for a technical evaluation or hiring process and would like to request access to the private source code repository, please reach out directly.
+Built with intention, fueled by late nights. Feel free to open issues or reach out if something breaks or if you just want to talk Android.
