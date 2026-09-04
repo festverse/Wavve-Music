@@ -98,4 +98,4 @@ Wavve relies on the following public APIs to populate its content:
 
 © 2026 Utsav Vasava. All Rights Reserved.
 
-This project and its source code are provided for demonstration and portfolio purposes. You may view and learn from the code, but you may not copy, modify, distribute, or use it for commercial purposes without explicit permission.
+This project and its source code are provided for demonstration and portfolio purposes. You may view and learn from the code, but you may not copy, modify, distribute or use it for commercial purposes without explicit permission.
