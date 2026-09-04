@@ -34,8 +34,6 @@
   <img src="screenshots/Screenshot_6.jpeg" width="32%">
 </p>
 
----
-
 ## Tech Stack
 
 The application is built natively for Android using a modern Kotlin and Jetpack Compose stack:
