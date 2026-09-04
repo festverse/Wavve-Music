@@ -21,6 +21,20 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/Screenshot_1.jpeg" width="32%">
+  <img src="screenshots/Screenshot_2.jpeg" width="32%">
+  <img src="screenshots/Screenshot_3.jpeg" width="32%">
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot_4.jpeg" width="32%">
+  <img src="screenshots/Screenshot_5.jpeg" width="32%">
+  <img src="screenshots/Screenshot_6.jpeg" width="32%">
+</p>
+
+---
 
 ## Tech Stack
 
