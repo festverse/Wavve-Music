@@ -92,8 +92,6 @@ Wavve relies on the following public APIs to populate its content:
 
 4.  **Open in Android Studio** and sync Gradle. Build and run on your device or emulator.
 
-> **Note:** The `google-services.json` file and `.env` are excluded from version control via `.gitignore` to protect sensitive credentials.
-
 ## License
 
 © 2026 Utsav Vasava. All Rights Reserved.
